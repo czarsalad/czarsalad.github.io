@@ -21,10 +21,11 @@ body {
     url('VCR_OSD_MONO_1.001.ttf');
 }
 .bgimage {
-    background-image: url("../images/computer.png");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-color: rgba(0,0,0,0);
+    background: url(../images/computer.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
