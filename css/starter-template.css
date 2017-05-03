@@ -1,0 +1,49 @@
+body {
+  padding-top: 5  0px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.personal h1>span, .me h1>span {
+    background-color: rgba(168,246,248,0.5);
+    line-height: 1;
+    padding: 2px;
+}
+@font-face {
+    font-family: "VCR_OSD_MONO_1.001";
+    src: url('../fonts/VCR_OSD_MONO_1.001.ttf'),
+    url('VCR_OSD_MONO_1.001.ttf');
+}
+.navbar-brand {
+    font-family: unfinished;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+import font test
+.mecontent {
+    font-family: "VCR_OSD_MONO_1.001";
+}
+
+*/
