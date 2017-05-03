@@ -27,7 +27,14 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-
+.indexlead {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em  
+}
 
 
 
