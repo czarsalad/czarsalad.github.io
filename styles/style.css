@@ -47,6 +47,24 @@ a {
 p {
     font-size: 25px;
 }
+.sidebar {
+    padding: .5em;
+    width:35%;
+    border: 1px;
+    background:#3d594b;
+    float: right;
+    margin-right: 1.5%;
+}
+.aboutcontent {
+    font-family: 'Open Sans', Calibri, Arial, sans-serif;
+    padding: .5em;
+    margin-left: 1.5%;
+    width:60%;
+    border: 1px;
+    background:#3d594b;
+    float: left;
+}
+
 @media screen and (max-width: 55em) {
 
 	.container > header h1,
@@ -120,3 +138,9 @@ p {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+
+/* fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
