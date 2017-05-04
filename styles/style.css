@@ -1,0 +1,142 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+html, body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+indexlinks {
+     color: white;
+     text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+a { 
+    text-decoration: none;
+} /* color */
+
+
+
+/*rb split*/
+a.twocolors span.red {
+    color: #dededc;
+    text-decoration: none;
+    }
+a.twocolors:hover span.red {
+    color: #bb2912;
+    text-decoration: none;
+    }
+a.twocolors span.blue {
+    color: #dededc;
+    text-decoration: none;
+    }
+a.twocolors:hover span.blue {
+    color: #53ced5;
+    text-decoration: none;
+    }
+/*rb split*/
+
+@font-face {
+    font-family: "VCR_OSD_MONO_1.001";
+    src: url('../fonts/VCR_OSD_MONO_1.001.ttf'),
+    url('VCR_OSD_MONO_1.001.ttf');
+}
+.bgimage {
+    background: url(../images/computer.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home {
+    text-decoration: none;
+}
+.container {
+    position: relative;
+    margin-top: 15em;
+}
+p {
+    font-size: 25px;
+}
+@media screen and (max-width: 55em) {
+
+	.container > header h1,
+	.container > header nav {
+		float: none;
+	}
+
+	.container > header > span,
+	.container > header h1 {
+		text-align: center;
+	}
+
+	.container > header nav {
+		margin: 0 auto;
+	}
+
+	.container > header > span {
+		text-indent: 30px;
+	}
+
+	.main section p {
+		padding: 2em 5%;
+		font-size: 1.4em;
+	}
+}
+.paragraphindex {
+        color: white;
+        text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+        border-radius: 1em;
+        padding: 1em;
+        position: fixed;
+        top: 60%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.centerindex {
+        color: white;
+        text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+        border-radius: 1em;
+        padding: 1em;
+        position: fixed;
+        top: 52%;
+        left: 50%;
+        right: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.footerindex {
+    font-family: "VCR_OSD_MONO_1.001";
+}
+/* typed.js cursor*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
