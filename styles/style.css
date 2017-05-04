@@ -24,26 +24,6 @@ a {
 } /* color */
 
 
-
-/*rb split*/
-a.twocolors span.red {
-    color: #dededc;
-    text-decoration: none;
-    }
-a.twocolors:hover span.red {
-    color: #bb2912;
-    text-decoration: none;
-    }
-a.twocolors span.blue {
-    color: #dededc;
-    text-decoration: none;
-    }
-a.twocolors:hover span.blue {
-    color: #53ced5;
-    text-decoration: none;
-    }
-/*rb split*/
-
 @font-face {
     font-family: "VCR_OSD_MONO_1.001";
     src: url('../fonts/VCR_OSD_MONO_1.001.ttf'),

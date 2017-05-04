@@ -84,6 +84,29 @@
 .cbp-af-header.cbp-af-header-shrink h1 {
 	font-size: 2em;
 }
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/*rb split*/
+a.twocolors span.red {
+    color: #2f130a;
+    text-decoration: none;
+    }
+a.twocolors:hover span.red {
+    color: #bb2912;
+    text-decoration: none;
+    }
+a.twocolors span.blue {
+    color: #2f130a;
+    text-decoration: none;
+    }
+a.twocolors:hover span.blue {
+    color: #53ced5;
+    text-decoration: none;
+    }
+/*rb split*/
 
 /* Example Media Queries */
 @media screen and (max-width: 55em) {
