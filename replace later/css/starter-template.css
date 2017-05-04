@@ -6,6 +6,15 @@ body {
   padding-top: 60px;
   text-align: center;
 }
+.blog {
+    padding-top: 60px;
+}
+.blogtext {
+    
+}
+.blog-post-title {
+    font-weight: lighter;
+}
 .typed {
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
@@ -43,6 +52,10 @@ footer {
     color: black;
     text-shadow: #A8F6F8 0.1em 0.1em 0.2em;
 }
+
+
+
+
 
 
 

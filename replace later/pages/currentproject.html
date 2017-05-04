@@ -34,15 +34,15 @@
           <ul class="nav navbar-nav">
             <li><a href="../index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-            <li class="dropdown">
+            <li><a href="contact.html">Contact</a></li>
+            <li class="active dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown"  href="projects.html" role="button" aria-haspopup="true" aria-expanded="false">
                     Projects <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="watercooled.html">Current Project</a></li>
-                    <li><a href="watercooled2.html">The Gear</a></li>
-                    <li><a href="watercooled3.html">Bending Tube</a></li>
+                    <li><a href="currentproject.html">Current Project</a></li>
+                    <li><a href="gear.html">The Gear</a></li>
+                    <li><a href="tubebending.html">Bending Tube</a></li>
                 </ul>
             </li>
           </ul>
@@ -50,15 +50,20 @@
       </div>
     </nav>
 
-    <div class="container">
+   
+    <!-- this is where the nav bar stops -->
+    <div class="container blog">
+      <div class="col-sm-8 blog-main">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      <div class="blog-post">
+        <h1 class="display-2 blog-post-title">My current project</h1>
+        <p class="blog-post-meta text-muted">May 3, 2017 by <a href="about.html">Ethan</a></p>
+        
+          <p class="blogtext"><span class="lead">My current project is a small form factor watercooled PC</span>, with the goal being a quiet, powerful computer with a subtle aesthetic look to it. A lot of people recommend using a larger form factor case for a first time watercooled build, but that means I'll eventually have to rebuild the computer eventually to get it the way I want it to. So, ignoring the recommendations of others, I have started my build in the Fractal Design Nano S case with a full size graphics card and two radiators.</p>
       </div>
 
-    </div><!-- /.container -->
-
+     </div><!-- /.container -->
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
