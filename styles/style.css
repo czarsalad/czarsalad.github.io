@@ -29,6 +29,12 @@ a {
     src: url('../fonts/VCR_OSD_MONO_1.001.ttf'),
     url('VCR_OSD_MONO_1.001.ttf');
 }
+@font-face {
+    font-family: "din1451alt";
+    src: url('../fonts/din1451alt.ttf'),
+    url('din1451alt.ttf');
+}
+din1451alt
 .bgimage {
     background: url(../images/computer.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -44,9 +50,7 @@ a {
     position: relative;
     margin-top: 15em;
 }
-p {
-    font-size: 25px;
-}
+
 .sidebar {
     padding: .5em;
     width:35%;
@@ -70,6 +74,7 @@ p {
 p.main{
     margin-top: -25px;
     text-indent: 40px;
+    font-size: 25px;
 }
 #sidebarimg {
   width: 100%;
@@ -93,7 +98,37 @@ p.main{
     margin-top: 4px;
     text-align: center;
 }
-      
+.contactcontent {
+    padding: 40px;
+    background-color: #ccc;
+    position: relative;
+    font-size: 18px;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+}
+.componentcontent p+p {
+    padding: 1em;
+}
+.contact>h1 {
+    margin: 1px 37px -25px;
+    padding: 0;
+    max-width: 75%;
+}
+.contact h1 {
+    display: block;
+    z-index: 2;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    font-size: 3em;
+}
+.contact {
+    margin: 0 auto;
+    padding: 0 2px;
+    max-width: 880px;
+    overflow: hidden;
+}
+
+
 @media screen and (max-width: 55em) {
 
 	.container > header h1,
