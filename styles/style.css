@@ -31,6 +31,7 @@ a {
     src: url('../fonts/din1451alt.ttf'),
     url('din1451alt.ttf');
 }
+
 .bgimage {
     background: url(../images/computer.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -137,7 +138,7 @@ p.main{
 .components {
     padding-bottom: 20px;
 }
-.aboutcontainer {
+.contactcontainer {
     margin: 0 auto;
     padding: 0 2px;
     max-width: 884px;
@@ -145,10 +146,25 @@ p.main{
     position: relative;
 }
 .maptext {
-    margin: 0 40px 5px;
-    padding: 40px;
-    background-color: #fff;
+    margin: 30px 0px 40px;
+    padding: 20px 30px 30px 30px;
+    background-color: #ccc;
     position: relative;
+}
+.maptext>h1 p{
+    display: block;
+    z-index: 2;
+    position: relative;
+    font-weight: 400; 
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    font-size: 45px;
+}
+.maptext>p {
+    font-weight: 400;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    font-size: 18px;
+    margin-top: -30px;
+    margin-left: 4px;
 }
 .aboutcontainer h2 {
     width: 85%;
@@ -170,6 +186,38 @@ p.main{
     width:100%;
     position:absolute;
 }
+.social {
+    padding: 18px;
+    background-color: #ccc;
+    position: relative;
+    font-size: 12px;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    margin: 30px auto;
+    max-width: 880px;
+    overflow: hidden;
+}
+.social>h2  {
+    letter-spacing: -.5px;
+    font-weight: 400;
+    text-align: center;
+}
+.social p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* don't touch these you can't handle it*/
 @media screen and (max-width: 55em) {
 
 	.container > header h1,
@@ -221,6 +269,15 @@ p.main{
 .footerindex {
     font-family: "VCR_OSD_MONO_1.001";
 }
+
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+
 /* typed.js cursor*/
 .typed-cursor{
     opacity: 1;
