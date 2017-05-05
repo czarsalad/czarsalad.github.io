@@ -34,7 +34,6 @@ a {
     src: url('../fonts/din1451alt.ttf'),
     url('din1451alt.ttf');
 }
-din1451alt
 .bgimage {
     background: url(../images/computer.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -108,7 +107,7 @@ p.main{
 .componentcontent p+p {
     padding: 1em;
 }
-.contact>h1 {
+.contactdescription>h1 {
     margin: 1px 37px -25px;
     padding: 0;
     max-width: 75%;
@@ -117,7 +116,7 @@ p.main{
     display: block;
     z-index: 2;
     position: relative;
-    font-weight: 400;
+    font-weight: 400; 
     font-family: 'Open Sans', Calibri, Arial, monospace;
     font-size: 3em;
 }
@@ -126,8 +125,41 @@ p.main{
     padding: 0 2px;
     max-width: 880px;
     overflow: hidden;
+    
 }
-
+.contactdescription>h1 p {
+    margin: 0;
+    display: inline;
+    font-size: 50px;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgba(83, 206, 213, .8);
+}
+.components {
+    padding-bottom: 20px;
+}
+.aboutcontainer {
+    margin: 0 auto;
+    padding: 0 2px;
+    max-width: 884px;
+    overflow: hidden;
+    position: relative;
+}
+.maptext {
+    padding: 40px;
+    background-color: #fff;
+    position: relative;
+}
+.aboutcontainer h2 {
+    width: 85%;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -1px;
+}
 
 @media screen and (max-width: 55em) {
 
