@@ -13,7 +13,6 @@ html, body {
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
-
 indexlinks {
      color: white;
      text-shadow: black 0.1em 0.1em 0.2em; 
@@ -22,8 +21,6 @@ indexlinks {
 a { 
     text-decoration: none;
 } /* color */
-
-
 @font-face {
     font-family: "VCR_OSD_MONO_1.001";
     src: url('../fonts/VCR_OSD_MONO_1.001.ttf'),
@@ -41,7 +38,6 @@ a {
     -o-background-size: cover;
     background-size: cover;
 }
-
 .home {
     text-decoration: none;
 }
