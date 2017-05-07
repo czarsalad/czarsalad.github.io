@@ -48,29 +48,50 @@ a {
 }
 
 .sidebar {
+    margin-top: 37px;
     padding: .5em;
     width:35%;
     border: 1px;
-    background:#3d594b;
+    background: rgba(83, 206, 213, .8);
     float: right;
     margin-right: 1.5%;
 }
 .aboutcontent {
+    margin-top: 37px;
     font-family: 'Open Sans', Calibri, Arial, sans-serif;
     padding: .5em;
     margin-left: 1.5%;
     width:60%;
     border: 1px;
-    background:#3d594b;
+    background:#ccc;
     float: left;
+    margin-bottom: 1.5%;
 }
+.aboutcontent h1{
+    font-weight: 400; 
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    margin-top: -40px;
+}
+.aboutcontent>h1 p{
+    margin: 0;
+    display: inline;
+    font-size: 50px;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgba(83, 206, 213, .8);
+}
+
 .aboutcontent h2{
     font-size: 2.3rem;
 }
 p.main{
-    margin-top: -25px;
+    margin-top: -20px;
     text-indent: 40px;
-    font-size: 25px;
+    font-size: 23px;
+    padding: 10px;
 }
 #sidebarimg {
   width: 100%;
@@ -204,13 +225,81 @@ p.main{
 .social p {
     text-align: center;
     font-size: 18px;
+    letter-spacing: 15px;
+}
+.contentgear {
+    margin: auto;
+    margin-left: 40px;
+    padding: 0 2px;
+    max-width: 70%;
+    overflow: hidden;
+    float: left;
+}
+.contentgear h1 {
+    display: block;
+    z-index: 2;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    font-size: 3em;
+}
+.maingear {
+    margin-top: 15px;
+}
+.maingear>h1 {
+    margin: 1px 37px -25px;
+    padding: 0;
+    max-width: 75%;
+}
+.maingear>h1 p {
+    margin: 0;
+    display: inline;
+    font-size: 50px;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgba(83, 206, 213, .8);
+}
+.contentgeartext {
+    padding: 40px;
+    background-color: #ccc;
+    position: relative;
+    font-size: 18px;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+}
+.sidebargear {
+    margin-top: 55px;
+    padding: .5em;
+    height: auto;
+    width: 20%;
+    border: 1px;
+    background: rgba(83, 206, 213, .8);
+    float: right;
+    position: fixed;
+    right: 3%;
+}
+#stickydiv.sticky {
+    position: fixed;
+    top: 0;
 }
 
 
 
 
-
-
+/* 
+                  <p>motherboard</p>
+                  <p>memory</p>   
+                  <p>storage</p>
+                  <p>gpu</p>
+                  <p>case</p>
+                  <p>psu</p>
+                  <p>some kinda break here cue watercooling</p>
+                  <p>blocks and rads</p>
+                  <p>fittings and tube</p>
+                  <p>pump and fluids</p>
+*/
 
 
 
@@ -268,6 +357,12 @@ p.main{
 }
 .footerindex {
     font-family: "VCR_OSD_MONO_1.001";
+}
+.footerabout {
+    clear: both;
+    text-align: center;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    padding-bottom: 5px;
 }
 
 
