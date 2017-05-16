@@ -48,23 +48,21 @@ a {
 }
 
 .sidebar {
-    margin-top: 37px;
-    padding: .5em;
-    width:35%;
+    margin-top: 280px;
+    padding: 1em;
+    width: 35%;
     border: 1px;
     background: rgba(83, 206, 213, .8);
-    float: right;
-    margin-right: 1.5%;
+    margin-left: 1.9%;
 }
 .aboutcontent {
-    margin-top: 37px;
     font-family: 'Open Sans', Calibri, Arial, sans-serif;
-    padding: .5em;
-    margin-left: 1.5%;
+    padding: 1em;
+    margin-right: 1.9%;
     width:60%;
     border: 1px;
     background:#ccc;
-    float: left;
+    float: right;
     margin-bottom: 1.5%;
 }
 .aboutcontent h1{
@@ -75,7 +73,7 @@ a {
 .aboutcontent>h1 p{
     margin: 0;
     display: inline;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.1em;
     letter-spacing: -2px;
     padding-bottom: 1px;
@@ -229,7 +227,7 @@ p.main{
 }
 .contentgear {
     margin: auto;
-    margin-left: 40px;
+    margin-left: 2.8%;
     padding: 0 2px;
     max-width: 70%;
     overflow: hidden;
@@ -263,10 +261,10 @@ p.main{
     background-color: rgba(83, 206, 213, .8);
 }
 .contentgeartext {
-    padding: 40px;
+    padding: 35px;
     background-color: #ccc;
     position: relative;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Open Sans', Calibri, Arial, monospace;
 }
 .sidebargear {
@@ -280,17 +278,81 @@ p.main{
     position: fixed;
     right: 3%;
 }
+.sidebargear a:link {
+    color: inherit;
+}
+.sidebargear>ul {
+    font-size: 20px;
+}
+.sidebargear li {
+    margin: .1em;
+}
+.sidebargear>h1 {
+    text-align: center;
+    
+}
 #stickydiv.sticky {
     position: fixed;
     top: 0;
 }
-
+.contentgearimg {
+	max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.gearimg {
+    width: 80%;
+    height: auto;
+}
+.wrapper {
+    margin: auto;
+    padding: 0 2px;
+    max-width: 85%;
+    overflow: hidden;
+}
+.wrappercontain {
+    margin-top: 15px;
+}
+.wrappercontain>h1 {
+    margin: 1px 37px -25px;
+    padding: 0;
+    max-width: 75%;
+}
+.wrappercontain>h1 p {
+    margin: 0;
+    display: inline;
+    font-size: 50px;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgba(83, 206, 213, .8);
+}
+.wrapper h1 {
+    display: block;
+    z-index: 2;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    font-size: 3em;
+}
+.wrappertext {
+    padding: 35px;
+    background-color: #ccc;
+    position: relative;
+    font-size: 22px;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+}
+.wrapperimg {
+    text-align: center;
+}
 
 
 
 /* 
                   <p>motherboard</p>
-                  <p>memory</p>   
+     &amp;             <p>memory</p>   
                   <p>storage</p>
                   <p>gpu</p>
                   <p>case</p>
@@ -302,7 +364,39 @@ p.main{
 */
 
 
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .sidebargear { display: block; }  /* show it on small screens */
+}
 
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  .sidebargear { display: none; }   /* hide it elsewhere */
+  .contentgear {
+    margin: auto;
+    margin-left: 2.8%;
+    margin-right: 2.8%;
+    padding: 0 2px;
+    max-width: 85%;
+    overflow: hidden;
+    }
+  .maingear>h1 p {
+    margin: 0;
+    display: inline;
+    font-size: 30px;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgba(83, 206, 213, .8);
+    }
+  .contentgeartext {
+    padding: 25px;
+    background-color: #ccc;
+    position: relative;
+    font-size: 18px;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+}
+}
 
 
 
