@@ -91,20 +91,14 @@ p.main{
     font-size: 23px;
     padding: 10px;
 }
-#sidebarimg {
-  width: 100%;
-  height: 400px;
-  background: red;
-  overflow: hidden;
-  border: 1px solid red;
-  position: relative;
+.sidebarimg {
+	max-width: 80%; 
+    margin: 0 auto;
+    text-align: center;
 }
-#sidebarimg img {
-  width: 100%;
-  height: auto;
-  min-height: 100%;
-  min-width: 400px;
-  position: absolute;
+.sideimg {
+    width: 90%;
+    height: auto;
 }
 .sidebar p {
     font-family: 'Open Sans', Calibri, Arial, sans-serif;
@@ -112,6 +106,9 @@ p.main{
     margin-bottom: 4px;
     margin-top: 4px;
     text-align: center;
+}
+.sidebar h2 {
+    font-weight: 400;
 }
 .contactcontent {
     padding: 40px;
@@ -139,9 +136,8 @@ p.main{
 .contact {
     margin: 0 auto;
     padding: 0 2px;
-    max-width: 880px;
+    max-width: 60%;
     overflow: hidden;
-    
 }
 .contactdescription>h1 p {
     margin: 0;
@@ -160,7 +156,7 @@ p.main{
 .contactcontainer {
     margin: 0 auto;
     padding: 0 2px;
-    max-width: 884px;
+    max-width: 60%;
     overflow: hidden;
     position: relative;
 }
@@ -212,7 +208,7 @@ p.main{
     font-size: 12px;
     font-family: 'Open Sans', Calibri, Arial, monospace;
     margin: 30px auto;
-    max-width: 880px;
+    max-width: 60%;
     overflow: hidden;
 }
 .social>h2  {
@@ -344,8 +340,26 @@ p.main{
     font-size: 22px;
     font-family: 'Open Sans', Calibri, Arial, monospace;
 }
-.wrapperimg {
+.wrappertext>h2 {
     text-align: center;
+}
+.wrapperimg {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+.projectgearimg {
+	max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.projimg {
+    width: 70%;
+    height: auto;
+}
+.wrappertext>h4 {
+    text-align: center;
+    margin-top: 5px;
 }
 
 
@@ -370,6 +384,7 @@ p.main{
 
 @media screen and (min-width: 401px) and (max-width: 1024px) {
   .sidebargear { display: none; }   /* hide it elsewhere */
+  .sidebar { display: none; }
   .contentgear {
     margin: auto;
     margin-left: 2.8%;
@@ -395,6 +410,77 @@ p.main{
     position: relative;
     font-size: 18px;
     font-family: 'Open Sans', Calibri, Arial, monospace;
+    }
+  p.main {
+    margin-top: -20px;
+    text-indent: 40px;
+    font-size: 18px;
+    padding: 10px; 
+    }
+  .aboutcontent>h1 p {
+      margin: 0;
+    display: inline;
+    font-size: 30px;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgba(83, 206, 213, .8);  
+    }
+  .aboutcontent {
+    font-family: 'Open Sans', Calibri, Arial, sans-serif;
+    padding: 1em;
+    margin-right: 1.9%;
+    width: 90%;
+    border: 1px;
+    background: #ccc;
+    float: right;
+    margin-bottom: 1.5%;
+    }
+  .aboutcontent h2 {
+        font-size: 25px;
+    }
+  .wrappertext {
+    padding: 35px;
+    background-color: #ccc;
+    position: relative;
+    font-size: 17px;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+}
+  .contactdescription>h1 p {
+    margin: 0;
+    display: inline;
+    font-size: 30px;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgba(83, 206, 213, .8);
+}
+  .contact {
+    margin: 0 auto;
+    padding: 0 2px;
+    max-width: 80%;
+    overflow: hidden;
+}
+  .contactcontainer {
+    margin: 0 auto;
+    padding: 0 2px;
+    max-width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+  .social {
+    padding: 18px;
+    background-color: #ccc;
+    position: relative;
+    font-size: 12px;
+    font-family: 'Open Sans', Calibri, Arial, monospace;
+    margin: 30px auto;
+    max-width: 80%;
+    overflow: hidden;
 }
 }
 
