@@ -139,8 +139,8 @@ p.main{
     max-width: 60%;
     overflow: hidden;
 }
-a .fa {
-    color: inherit;
+.fa {
+    color: #000000;
 }
 .contactdescription>h1 p {
     margin: 0;
