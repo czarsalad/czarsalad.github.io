@@ -278,14 +278,16 @@ p.main{
     color: inherit;
 }
 .sidebargear>ul {
-    font-size: 20px;
+    font-size: 18px;
 }
 .sidebargear li {
     margin: .1em;
 }
-.sidebargear>h1 {
+.sidebargear>h2 {
+    text-align: center; 
+}
+.sidebargear>h3 {
     text-align: center;
-    
 }
 #stickydiv.sticky {
     position: fixed;
@@ -543,6 +545,7 @@ p.main{
     text-align: center;
     font-family: 'Open Sans', Calibri, Arial, monospace;
     padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 
